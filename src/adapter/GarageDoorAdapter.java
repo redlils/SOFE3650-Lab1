@@ -2,7 +2,7 @@ package Adapter;
 
 public class GarageDoorAdapter implements GarageDoor {
     PremiumGarageDoor this_door;
-    public void garageDoorAdapter(String id){
+    public GarageDoorAdapter(String id){
         this_door = new PremiumGarageDoor(id);
     }
 
